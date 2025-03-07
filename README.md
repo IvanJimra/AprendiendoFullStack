@@ -1,33 +1,32 @@
-📚 Glosario Completo de POO, Bases de Datos, GIT, SCRUM, Spring Boot y Angular
-🧩 1. Conceptos Básicos de Programación
-📌 1.1. Tipos de Variables
-Definición: Las variables son contenedores que almacenan datos en memoria. En Java, los tipos de variables se dividen en:
+# 📚 Glosario Completo de POO, Bases de Datos, GIT, SCRUM, Spring Boot y Angular
 
-Tipos Primitivos:
+---
 
-int: Números enteros (ej: int edad = 25;).
+## 🧩 1. Conceptos Básicos de Programación
 
-double: Números decimales (ej: double precio = 19.99;).
+### 📌 1.1. **Tipos de Variables**
+**Definición:** Las variables son contenedores que almacenan datos en memoria. En **Java**, los tipos de variables se dividen en:
 
-boolean: Valores booleanos (true o false).
+- **Tipos Primitivos**:
+  - `int`: Números enteros (ej: `int edad = 25;`).
+  - `double`: Números decimales (ej: `double precio = 19.99;`).
+  - `boolean`: Valores booleanos (**true** o **false**).
+  - `char`: Un solo carácter (ej: `char letra = 'A';`).
 
-char: Un solo carácter (ej: char letra = 'A';).
+- **Tipos de Referencia**:
+  - `String`: Cadena de caracteres (ej: `String nombre = "Juan";`).
+  - `Array`: Arreglo de elementos (ej: `int[] numeros = {1, 2, 3};`).
+  - **Objetos**: Instancias de clases (ej: `Alumno alumno1 = new Alumno();`).
 
-Tipos de Referencia:
+---
 
-String: Cadena de caracteres (ej: String nombre = "Juan";).
+### 🔄 1.2. **Ciclos y Condiciones**
 
-Array: Arreglo de elementos (ej: int[] numeros = {1, 2, 3};).
+**Ciclos**:
 
-Objetos: Instancias de clases (ej: Alumno alumno1 = new Alumno();).
+- **For**: Repite un bloque de código un número específico de veces.
 
-🔄 1.2. Ciclos y Condiciones
-Ciclos:
-
-For: Repite un bloque de código un número específico de veces.
-
-java
-Copy
+```java
 for (int i = 0; i < 5; i++) {
     System.out.println("Iteración: " + i);
 }
